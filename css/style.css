@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    padding-top: 70px;
+    color: white;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    background: rgba(145, 23, 14, 0.855);
+    border: 1px solid rgba(71, 12, 8, 0.855);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+button:hover {
+    background: rgba(162, 27, 17, 0.769);
+    border: 1px solid rgba(95, 19, 13, 0.797);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: rgba(107, 13, 13, 0.782);
+    align-items: center;
+    gap: 5px;
+}
+
+nav > .icon-container {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav > .link-container {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+nav > .link-container > a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+nav * {
+    color: white;
+}
+
+nav > .coffee-button {
+    margin-left: 50px;
+}
